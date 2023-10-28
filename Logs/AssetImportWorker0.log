@@ -15,7 +15,7 @@ F:/Game Engines - Scripting/RobotRampage_2023
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49818
+50309
 Successfully changed project path to: F:/Game Engines - Scripting/RobotRampage_2023
 F:/Game Engines - Scripting/RobotRampage_2023
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ F:/Game Engines - Scripting/RobotRampage_2023
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 172.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 120.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
 [Subsystems] Discovering subsystems at path F:/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'F:/2021.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'F:/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003207 seconds.
+Registered in 0.003152 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 128.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 103.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.125 seconds
+- Completed reload, in  1.017 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1126ms)
-		BeginReloadAssembly (121ms)
+	ReloadAssembly (1018ms)
+		BeginReloadAssembly (140ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (851ms)
-			LoadAssemblies (119ms)
+		EndReloadAssembly (743ms)
+			LoadAssemblies (137ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (182ms)
+			SetupTypeCache (191ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (528ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (422ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (129ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (297ms)
-				ProcessInitializeOnLoadMethodAttributes (89ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (232ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007040 seconds.
+Registered in 0.005093 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image F:\Game Engines - Scripting\RobotRampage_2023\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image F:\Game Engines - Scripting\RobotRampage_2023\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.693 seconds
+- Completed reload, in  1.321 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1694ms)
-		BeginReloadAssembly (184ms)
+	ReloadAssembly (1322ms)
+		BeginReloadAssembly (152ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1327ms)
-			LoadAssemblies (116ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1031ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (398ms)
+			SetupTypeCache (329ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (91ms)
-			SetupLoadedEditorAssemblies (642ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (471ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (132ms)
-				ProcessInitializeOnLoadAttributes (442ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (55.7 KB). Loaded Objects now: 3699.
-Memory consumption went from 111.4 MB to 111.3 MB.
-Total: 5.405600 ms (FindLiveObjects: 0.486500 ms CreateObjectMapping: 0.282700 ms MarkObjects: 4.524700 ms  DeleteObjects: 0.110700 ms)
+Unloading 3283 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (55.7 KB). Loaded Objects now: 3743.
+Memory consumption went from 112.5 MB to 112.5 MB.
+Total: 5.430200 ms (FindLiveObjects: 0.406600 ms CreateObjectMapping: 0.205500 ms MarkObjects: 4.708800 ms  DeleteObjects: 0.108300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,34 +159,139 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 479991.605969 seconds.
-  path: Assets/Smoke.mat
-  artifactKey: Guid(9fcbe14d93cc146179952fee7750e337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Smoke.mat using Guid(9fcbe14d93cc146179952fee7750e337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ee858b6037b10c1beeeffe7a7f2261') in 0.232954 seconds 
+  Time since last request: 1341648.266252 seconds.
+  path: Assets/Standard Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs
+  artifactKey: Guid(05ec5cf00ca181d45a42ba1870e148c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs using Guid(05ec5cf00ca181d45a42ba1870e148c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873b2bb13c08120b15231e0421e48ef6') in 0.074495 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003887 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Game Engines - Scripting\RobotRampage_2023\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Game Engines - Scripting\RobotRampage_2023\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.751 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1752ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1460ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (776ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (528ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3277 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (24.7 KB). Loaded Objects now: 3746.
+Memory consumption went from 112.2 MB to 112.2 MB.
+Total: 6.009400 ms (FindLiveObjects: 0.386900 ms CreateObjectMapping: 0.360700 ms MarkObjects: 5.237800 ms  DeleteObjects: 0.022700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.053965 seconds.
-  path: Assets/Scenes/Battle
-  artifactKey: Guid(bb94e674857b54482938c07fdcf6d8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Battle using Guid(bb94e674857b54482938c07fdcf6d8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fe750c5ee73d6aff4ed80c4997fc51') in 0.002978 seconds 
+  Time since last request: 1626.696621 seconds.
+  path: Assets/Models/RobotMissile.prefab
+  artifactKey: Guid(d2c78b2d67c97420287beecc1c341311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RobotMissile.prefab using Guid(d2c78b2d67c97420287beecc1c341311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507a3aa6fce70bb78b04e2bfdcce8b6b') in 0.251563 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.051883 seconds.
-  path: Assets/Scenes/Battle/LightingData.asset
-  artifactKey: Guid(41716b9fe70e64fffaef05b86310e431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Battle/LightingData.asset using Guid(41716b9fe70e64fffaef05b86310e431) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is inconsistent because 2 files out of 10 are missing. Please use Generate Lighting to rebuild the lighting data.
-Lighting data asset ‘LightingData’ is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data. Realtime Global Illumination cannot be used until the lighting data is rebuilt.
-Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
- -> (artifact id: '6ebb5de9727684ef9de90a5fcba60e72') in 0.028426 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/RobotRampage_Pickup_Ammo.blend
+  artifactKey: Guid(a69030052afe0437490b368f6f3a11b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RobotRampage_Pickup_Ammo.blend using Guid(a69030052afe0437490b368f6f3a11b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4881abcbc09c304bab8b17a89f65a6a') in 0.437243 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Scenes/Battle/ReflectionProbe-0.exr
-  artifactKey: Guid(8843582a4102c47ed9c3b5d8cb45337d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Battle/ReflectionProbe-0.exr using Guid(8843582a4102c47ed9c3b5d8cb45337d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdff893c7ad9bbf7179b2d811ad76894') in 0.199266 seconds 
+  Time since last request: 0.000059 seconds.
+  path: Assets/Models/RobotRampage_ParticleSmoke.blend
+  artifactKey: Guid(8745635dbac3a4f9a8c53624d16a3b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RobotRampage_ParticleSmoke.blend using Guid(8745635dbac3a4f9a8c53624d16a3b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def93b9605230eefdf661ff0c41f3ff0') in 0.040080 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.357200 seconds.
-  path: Assets/Scenes/Battle.unity
-  artifactKey: Guid(464b33b06798b824a9895be2793890b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Battle.unity using Guid(464b33b06798b824a9895be2793890b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ede5120fc2e285023f5ef5e99a2b42') in 0.004364 seconds 
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/RobotRampage_Pickup_Health.blend
+  artifactKey: Guid(6c43464943ca24aeda68fdd20b321b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RobotRampage_Pickup_Health.blend using Guid(6c43464943ca24aeda68fdd20b321b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7bb8c84bc2521f1482feab346d8add') in 0.138105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/RobotRampage_BotBall_v1.blend
+  artifactKey: Guid(a2ac354ba9ee44b57a05ae6430047c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RobotRampage_BotBall_v1.blend using Guid(a2ac354ba9ee44b57a05ae6430047c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58cdb37af9fd29b58465852971c4ef8') in 0.045632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/RobotRampage_Bot_TextureBlue.png
+  artifactKey: Guid(0ac8ed0d652494fd29b4c921e018c988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RobotRampage_Bot_TextureBlue.png using Guid(0ac8ed0d652494fd29b4c921e018c988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c07ff727686ae982621f5b0fd8e488') in 0.105059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/RobotRampage_Bot_TextureYellow.png
+  artifactKey: Guid(5934243e71d3348e79e8488019641c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RobotRampage_Bot_TextureYellow.png using Guid(5934243e71d3348e79e8488019641c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddcf0335c464f7a945c407ddf343ead') in 0.021143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/RobotRampage_Pistol.fbx
+  artifactKey: Guid(e4be631cda7f47448a35b76f4af4ab7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RobotRampage_Pistol.fbx using Guid(e4be631cda7f47448a35b76f4af4ab7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246cf291b1aecd1266106cad9c1bc1b8') in 0.126733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/RobotRampage_Teleporter.blend
+  artifactKey: Guid(426e8b241d26048d6a27c8e1d266ebdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RobotRampage_Teleporter.blend using Guid(426e8b241d26048d6a27c8e1d266ebdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4436bac526930e8295ff14a182397155') in 0.203600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.471861 seconds.
+  path: Assets/Models/Materials/Main_Material__RobotRampage_Bot_Texture_psd.mat
+  artifactKey: Guid(c99c7a606ed9c49eb91f4038b43b73a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Main_Material__RobotRampage_Bot_Texture_psd.mat using Guid(c99c7a606ed9c49eb91f4038b43b73a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5b765b66271fc720be6675d7a79c85') in 0.078168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Materials/RobotRampage_Wall-Material.mat
+  artifactKey: Guid(2dca9d49b976448179f5fde6a93dc299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/RobotRampage_Wall-Material.mat using Guid(2dca9d49b976448179f5fde6a93dc299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb7c72264eb893729430a76d54910c6') in 0.026922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Materials/RobotRampage_Wall-Main_Material.mat
+  artifactKey: Guid(2dfffead1abb74c55831214f2df2b1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/RobotRampage_Wall-Main_Material.mat using Guid(2dfffead1abb74c55831214f2df2b1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98271abacebfccc994cd35b039fdb5b') in 0.031432 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
