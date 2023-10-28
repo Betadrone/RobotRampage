@@ -28,11 +28,11 @@ public class Constants
 
     public static readonly int[] AllPickupTypes = new int[5]
     {
-    PickUpPistolAmmo,
-    PickUpAssaultRifleAmmo,
-    PickUpShotgunAmmo,
-    PickUpHealth,
-    PickUpArmor
+        PickUpPistolAmmo,
+        PickUpAssaultRifleAmmo,
+        PickUpShotgunAmmo,
+        PickUpHealth,
+        PickUpArmor
     };
 
 }
