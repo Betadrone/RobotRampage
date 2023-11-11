@@ -21,6 +21,12 @@ public class Game : MonoBehaviour
     void Start()
     {
         singleton = this;
+        StartCoroutine("increaseScoreEachSecond");
+        isGameOver = false;
+        Time.timeScale = 1;
+        waveCountdown = 30;
+        enemiesLeft = 0;
+        StartCoroutine("updateWaveTimer");
         SpawnRobots();
     }
 
@@ -31,6 +37,7 @@ public class Game : MonoBehaviour
             spawn.SpawnRobot();
             enemiesLeft++;
         }
+        gameUI.SetEnemyText(enemiesLeft);
     }
 
     private IEnumerator updateWaveTimer()
@@ -50,7 +57,7 @@ public class Game : MonoBehaviour
         }
     }
 
-    public void RemoveEnemy()
+    public static void RemoveEnemy()
     {
         singleton.enemiesLeft--;
         singleton.gameUI.SetEnemyText(singleton.enemiesLeft);
